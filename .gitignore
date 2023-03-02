@@ -1,4 +1,9 @@
-rasa
+rasa/models/*
+rasa/tests/*
+rasa/venv
+rasa/before_venv.txt
+rasa/.rasa/*
+
 node_modules
 package-lock.json
 package.json
