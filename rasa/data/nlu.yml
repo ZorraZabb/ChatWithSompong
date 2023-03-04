@@ -1,101 +1,135 @@
 version: "3.1"
 
 nlu:
-- intent: greet
+- intent: hello_th
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - สวัสดี
+    - หวัดดี
+    - สวีดัด
+    - โหลๆ
+    - ดีจ้า
+    - ดีงับ
 
-# - intent: greet_th
-#   examples:
-#     - สวัสดี
-#     - ทักครับ
-#     - ฮัลโหล
-#     - โหล
-#     - โย่ว
-#     - หวัดดี
-#     - สวีดัด
-
-- intent: goodbye
+- intent: glad_th
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - ขอบคุณมากๆ ครับ
+    - ขอบคุณครับ
+    - ขอบคูมครับ
+    - ขอบคูมค่ะ
+    - แต๊งกิ้วงับ
+    - ขอบคุณงับ
+    - แต๊งหลายๆ
+    - แต๊งหลายเด้อ
+    - ขอบพระคุณ
+    - ขอบพระคุณเพคะ
 
-- intent: affirm
+- intent: ask_psu_th
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - มอ.ย่อมาจากอะไร
+    - มอ.คืออะไร
+    - มหาลัยมอ.คือ
+    - มหาวิทยาลัยมอ.คือ
+    - มหาวิทยาลัยสงขลานครินทร์คือ
+    - แนะนำมหาวิทยาลัยมอ.
 
-- intent: deny
+- intent: ask_ying_time_th
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - หอสมุดเปิดกี่โมง
+    - ห้องสมุดเปิดกี่โมง
+    - ห้องสมุดปิดกี่โมง
+    - หอสมุดปิดกี่โมง
+    - เวลาเปิดปิด
+    - ขอทราบเวลาเปิดปิดหน่อยครับ
+    - ขอสอบถามเวลาเปิดปิดห้องสมุด
+    - สอบถามเวลาเปิดปิดหอสมุด
+    - ตึกคุณหญิงหลงเปิดกี่โมง
+    - วันเวลาเปิดทำการหอสมุด
+    - วันเวลาเปิดปิด
+    - วันทำการของหอสมุด
 
-- intent: mood_great
+- intent: ask_about_contact_th
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - ติดต่อสอบถาม
+    - ช่องทางติดต่อ
+    - ขอช่องทางติดต่อหน่อยครับ
+    - ขอช่องทางสอบถาม
+    - ขอช่องทางติดต่อเพิ่มเติมหน่อย
+    - มีทางติดต่อมั้ย
+    - สอบถามเพิ่มเติมที่ไหน
+    - ช่องทางติดต่อเพิ่มเติม
 
-- intent: mood_unhappy
+- intent : ask_ying_enter_th
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - เข้าหญิงหลงได้เลยมั้ย
+    - วิธีเข้าหอสมุด
+    - สอบถามวิธีการเข้าห้องสมุด
+    - การเข้าใช้หอสมุดทำอย่างไร
+    - ต้องทำอะไรบ้างถึงเข้าหอสมุดได้
+    - คนธรรมดาเข้าใช้งานได้มั้ย
+    - นักศึกษาเข้าใช้งานอย่างไร
+    - นักศึกษาเข้าใช้งานได้มั้ย
+    - เข้าใช้ฟรีมั้ย
 
-- intent: bot_challenge
+- intent : ask_costume_th
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - การแต่งกายในหอสมุด
+    - แต่งกายแบบไหน
+    - ต้องแต่งตัวสุภาพมั้ย
+    - ใส่ขาสั้นได้ป่าว
+    - ใส่เอวลอยได้มั้ย
+    - ใส่ชุดอะไรเข้า
+    - ใส่ชุดอะไรเข้าได้บ้าง
+    - ห้ามใส่ชุดอะไรมั้ย
+    - กฎการแต่งตัวในหอสมุด
+    - ขอสอบถามการแต่งกายหน่อยครับ
+    - สอบถามการแต่งตัว
+    - สอบถามชุดที่ใส่เข้าหอสมุด
+
+- intent : ask_floor_th
+  examples: |
+    - หญิงหลงมีกี่ชั้น
+    - หอสมุดมีกี่ชั้น
+    - ห้องสมุดมีกี่ชั้นครับ
+    - จำนวนชั้นของหอสมุด
+    - หญิงหลงมีทั้งหมดกี่ชั้นครับ
+
+- intent : ask_each_floor_th
+  examples: |
+    - แต่ละชั้นมีอะไรบ้าง
+    - ชั้นสามเป็นอย่างไร
+    - ชั้นสี่เป็นอย่างไร
+    - ชั้นห้าเป็นอย่างไร
+    - ชั้นหกเป็นอย่างไร
+    - ชั้นเจ็ดเป็นอย่างไร
+    - ชั้นสามมีอะไร
+    - ชั้นในหญิงหลงมีอะไร
+    - แต่ละชั้นเป็นอย่างไร
+    - ขอสอบถามชั้นในหญิงหลง
+    - สอบถามแต่ละชั้นหน่อยครับ
+    - ชั้น 3-7 เป็นยังไง
+    - ชั้น 5 เป็นอย่างไร
+    - ชั้น 4 เป็นยังไง
+    - ชั้น 7 มีอะไร
+
+- synonym : PSU
+  examples: |
+    - PSU
+    - Prince of Songkhla University
+    - มอ.
+    - มหาวิทยาลัยสงขลานครินทร์
+
+- synonym : recommend
+  examples: |
+    - suggest
+    - recommend
+    - guide
+    - advise
+
+- synonym : หอสมุด
+  examples: |
+    - ห้องสมุด
+    - ตึกคุณหญิงหลง
+    - ตึกคุณหญิง
+    - หอสมุดคุณหญิงหลง
+    - ห้องสมุดคุณหญิงหลง
+    - หญิงหลง

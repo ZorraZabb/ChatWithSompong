@@ -2,29 +2,24 @@ version: "3.1"
 
 stories:
 
-- story: happy path
+- story : ask PSU th
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - intent: hello_th
+  - action: utter_hello_th
+  - intent: ask_psu_th
+  - action: utter_ask_psu_th
 
-- story: sad path 1
+- story: ask ying th
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: ask_ying_time_th
+  - action: utter_ask_ying_time_th
+  - intent: ask_ying_enter_th
+  - action: utter_ask_ying_enter_th
+  - intent: ask_costume_th
+  - action: utter_ask_costume_th
+  - intent: ask_floor_th
+  - action: utter_ask_floor_th
+  - intent: ask_each_floor_th
+  - action: utter_ask_each_floor_th
+  - intent: ask_about_contact_th
+  - action: utter_ask_about_contact_th

@@ -8,26 +8,48 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - glad
+  - ask_PSU
+  - hello_th
+  - glad_th
+  - ask_psu_th
+  - ask_ying_time_th
+  - ask_about_contact_th
+  - ask_ying_enter_th
+  - ask_costume_th
+  - ask_floor_th
+  - ask_each_floor_th
+
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_hello_th:
+  - text: "สวัสดีครับ สมพงษ์ยินดีต้อนรับ (＾▽＾)"
+  - text: "สวัสดีจ้า มีอะไรสอบถามสมพงษ์มั้ยครับ? （＾ω＾）"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_glad_th:
+  - text: "ด้วยความยินดีครับ (´｡• ᵕ •｡`) ♡"
+  - text: "ยินดีช่วยเหลือครับ (ღ˘⌣˘ღ)"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_ask_psu_th:
+  - text: "มหาวิทยาลัยสงขลานครินทร์ ก่อตั้งขึ้นตามนโยบายการพัฒนาภาคใต้ ทำหน้าที่ผลิตบัณฑิต วิจัย บริการวิชาการและทำนุบำรุงศิลปวัฒนธรรม"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_ask_ying_time_th:
+  - text: "เวลาเปิดปิดหอสมุดขึ้นอยู่กับภาคเรียนครับ 1.เปิดภาคเรียนวันธรรมดา 08.30-22.30น. 2.เปิดภาคฤดูร้อนวันธรรมดา 08.90-19.30น. 3.ปิดภาคเรียนวันธรรมดา 08.30-16.30น."
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_ask_about_contact_th:
+  - text: "สามารถสอบถามเพิ่มเติมทาง clib.psu@gmail.com หรือค้นหาข้อมูลผ่าน http://www.clib.psu.ac.th"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_ask_ying_enter_th:
+  - text: "การเข้าใช้งานต้องมีบัตรสมาชิก ซึ่งมี 2 ประเภท 1.บุคคลภายใน 2.บุคคลภายนอก(ซื้อจากตู้ขายตั๋ว) ในกรณีของนักศึกษาเข้าใช้งานได้ฟรีแต่ต้องมีบัตรนักศึกษา"
+
+  utter_ask_costume_th:
+  - text: "เนื่องจากเป็นสถานที่ราชการ สมพงษ์จึงขอเรียนผู้ใช้บริการแต่งตัวให้สุภาพเรียบร้อยนะครับ (´｡• ᵕ •｡`) ♡"
+
+  utter_ask_floor_th:
+  - text: "หอสมุดคุณหญิงหลงมีทั้งหมด 7 ชั้นครับ แต่หอสมุดเริ่มนับจากชั้นสามก่อนเน้อ ★~(◠‿◕✿)"
+
+  utter_ask_each_floor_th:
+  - text: "ชั้น 3 เป็นทางเข้า/ออก มีเค้าเตอร์ยืมและคืนหนังสือ ชั้น 4 เป็นวารสร หนังสืออ้างอิงและมีบริการถ่ายเอกสาร ชั้น 5 เป็นหนังสือภาษาอังกฤษและไทย ชั้น 6 มีหนังสือและที่อ่านหนังสือเหมือนชั้นอื่นๆ ชั้น 7 ห้องประชุมขนาดใหญ่สำหรับติวหรือประชุมและยังมีห้องฉายหนังด้วย"
 
 session_config:
   session_expiration_time: 60

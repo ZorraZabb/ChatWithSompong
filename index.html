@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>My Rasa Chatbot</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <script>!(function () {
@@ -14,9 +15,21 @@
         (e.onload = () => {
           window.WebChat.default(
             {
+              title: "Sompong",
+              subtitle: "Chatbot",
+              profileAvatar: "./img/NangG.jpg",
               initPayload: "/greet",
               customData: { language: "en" },
               socketUrl: "http://localhost:5005",
+              showMessageDate: true,
+              params:{
+                images: {
+                  dims: {
+                    width: 300,
+                    height: 200
+                  }
+                }
+              }
               // add other props here
             },
             null
