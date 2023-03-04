@@ -2,6 +2,38 @@ version: "3.1"
 
 stories:
 
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: deny
+  - action: utter_goodbye
+
+- story: ask PSU
+  steps:
+  - intent: ask_PSU
+  - action: utter_ask_PSU
+  - intent: glad
+  - action: utter_glad
+
 - story : ask PSU th
   steps:
   - intent: hello_th

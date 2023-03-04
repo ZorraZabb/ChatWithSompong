@@ -22,6 +22,37 @@ intents:
 
 
 responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "May the force be with you!!"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_glad:
+  - text: "Thank you…(´人｀●)SOOOOO━━(´∀｀●)━━MUCH!!"
+  - text: "My Pleasure"
+
+  utter_ask_PSU:
+  - text: "Prince of Songkla University or
+          PSU, the first university in 
+          southern Thailand established in 
+          1967, aimed to improve education and 
+          support regional industry. Today, it 
+          is a leading public university 
+          committed to academic excellence, 
+          research, and innovation, ranking 
+          among the top 10 comprehensive 
+          universities in Thailand."
+  
   utter_hello_th:
   - text: "สวัสดีครับ สมพงษ์ยินดีต้อนรับ (＾▽＾)"
   - text: "สวัสดีจ้า มีอะไรสอบถามสมพงษ์มั้ยครับ? （＾ω＾）"

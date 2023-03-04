@@ -1,6 +1,120 @@
 version: "3.1"
 
 nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_PSU
+  examples: |
+    - Do you know PSU?
+    - What is PSU?
+    - What is PSU stand for?
+    - What is full name of PSU?
+    - Can I ask you about PSU?
+    - What does PSU mean?
+    - Can you tell me about PSU?
+    - PSU
+    - Prince of Songkhla University
+    - What is Prince of Songkhla University?
+    - Can you tell me history of PSU?
+    - Can you tell me history of Prince of Songkhla University?
+    - Can I ask you about Prince of Songkhla University?
+
+- intent: glad
+  examples: |
+    - Thanks
+    - Thanks a lot
+    - Nice
+    - So cool
+    - Great
+    - You're so cool.
+
 - intent: hello_th
   examples: |
     - สวัสดี
@@ -109,7 +223,6 @@ nlu:
     - ชั้น 3-7 เป็นยังไง
     - ชั้น 5 เป็นอย่างไร
     - ชั้น 4 เป็นยังไง
-    - ชั้น 7 มีอะไร
 
 - synonym : PSU
   examples: |
