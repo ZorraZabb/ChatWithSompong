@@ -66,13 +66,19 @@ responses:
           universities in Thailand."
 
   utter_ask_ying_time:
-  - text: "The library opening hours depend on the academic semester. 1. During regular semester, it opens from 8:30am-10:30pm. 2. During summer semester, it opens from 8:00am-7:30pm. 3. During regular semester, it closes at 4:30pm."
+  - text: "The library opening hours depend on the academic semester.\n 
+  \n1. During regular semester, it opens from 8:30am-10:30pm.\n 
+  \n2. During summer semester, it opens from 8:00am-7:30pm.\n 
+  \n3. During regular semester, it closes at 4:30pm.\n"
 
   utter_ask_about_contact:
   - text: "For more information, please contact clib.psu@gmail.com or visit http://www.clib.psu.ac.th."
 
   utter_ask_ying_enter:
-  - text: "A library card is required for access, and there are two types: 1. Internal users and 2. External users (purchased from vending machines). In the case of students, they can use the library for free, but they must have a student ID card."
+  - text: "A library card is required for access, and there are two types:\n 
+  \n1. Internal users\n  
+  \n2. External users (purchased from vending machines).\n
+  \nIn the case of students, they can use the library for free, but they must have a student ID card."
 
   utter_ask_costume:
   - text: "As it is a government facility, Sompong requests that users dress appropriately. (´｡• ᵕ •｡`) ♡"
@@ -84,10 +90,10 @@ responses:
   - text: "The third floor is the entrance/exit, with borrowing and returning counters. The fourth floor is a reference room with document copying services. The fifth floor has books in English and Thai. The sixth floor has books and reading areas similar to other floors. The seventh floor has a large meeting room for studying or meetings, and there is also a movie screening room."
 
   utter_ask_step_borrow:
-  - text: "1.Borrower must use their own membership card, and can borrow up to 4 times, unless a resource is reserved.
-            2.Borrowing is not allowed if the card is expired, fines are overdue, or a resource is overdue by more than 15 days.
-            3.Overdue resources will be subject to a fine of 3 baht per day per item.
-            4.Borrower is responsible for the cost of damaged, lost, or missing resources according to library regulations."
+  - text: " \n1.Borrower must use their own membership card, and can borrow up to 4 times, unless a resource is reserved.\n
+            \n2.Borrowing is not allowed if the card is expired, fines are overdue, or a resource is overdue by more than 15 days.\n
+            \n3.Overdue resources will be subject to a fine of 3 baht per day per item.\n
+            \n4.Borrower is responsible for the cost of damaged, lost, or missing resources according to library regulations.\n"
 
   utter_ask_reserve_room:
   - text: "I believe the following link may provide the information you are seeking: https://download.clib.psu.ac.th/datawebclib/studyroom-vdo/vdo01.html."
@@ -114,7 +120,11 @@ responses:
   - text: "Clib PSU provides an online Study Room reservation service through the following website: https://clib.psu.ac.th/studyroom/service_reserve"
 
   utter_ask_many_room:
-  - text: "The Khunying Long Learning Resources Center provides 37 Study Rooms that are categorized into three types. Type A1 to A18 contains 18 rooms that can accommodate 1-2 persons, type B1 to B15 contains 15 rooms for 2-8 persons, and type C1 to C4 provides 4 rooms that can accommodate 8-16 persons. To view the location of Study Rooms, please refer to the map on our website: https://clib.psu.ac.th/studyroom/studyroom-plan."
+  - text: "The Khunying Long Learning Resources Center provides 37 Study Rooms that are categorized into three types.\n 
+  \nType A1 to A18 contains 18 rooms that can accommodate 1-2 persons\n
+  \nType B1 to B15 contains 15 rooms for 2-8 persons\n 
+  \nType C1 to C4 provides 4 rooms that can accommodate 8-16 persons\n 
+  \nTo view the location of Study Rooms, please refer to the map on our website: https://clib.psu.ac.th/studyroom/studyroom-plan."
 
   utter_ask_history_long:
   - text: "The Khunying Long Library was established in 1978 as a merger of the Faculty of Science Library and the Library of the Faculty of Engineering. It was named after Lady Long Atthkrawee Soonthorn, a benefactor who donated land to establish Prince of Songkla University's Nakarin Hat Yai Campus. The library was initially under the Educational Service Division office of the rector and was later elevated to the status of Khunying Long Library in 1989, and upgraded to the Office of Learning Resources in 2007. The current building, the Learning Resources Center, was completed in 2012."
