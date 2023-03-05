@@ -328,6 +328,7 @@ nlu:
     - Can you tell me the full name of the library?
     - What is the complete name of the library?
     - The library's official name?
+    - Do you know Yinglong
 
 - intent: ask_study
   examples: |
@@ -433,6 +434,7 @@ nlu:
     - Khunying Long building
     - learning resources center
     - khunying long athakravisunthon learning resources center
+    - Yinglong
 
 - synonym : recommend
   examples: |

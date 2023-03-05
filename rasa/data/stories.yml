@@ -128,3 +128,8 @@ stories:
   steps:
   - intent: ask_where_ying
   - action: utter_ask_where_ying
+
+- story: ask_what_can_do
+  steps:
+  - intent: ask_what_can_do
+  - action: utter_ask_what_can_do
