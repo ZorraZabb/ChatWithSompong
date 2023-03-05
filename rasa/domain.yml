@@ -136,7 +136,14 @@ responses:
   - text: "Address: Khunying Long Learning Resources Office Atthkrawee Soonthorn Prince of Songkhla University, Kho Hong Subdistrict, Hat Yai District Songkhla, 90112 Location: https://goo.gl/maps/T7oGttZL2MKsE6ww8 (Located in Prince of Songkla University)"
 
   utter_ask_what_can_do:
-  - text: "I am an AI-powered chatbot designed to provide answers within a specific scope. My knowledge is limited to certain topics such as the location of the Khun Ying Long building, opening and closing hours, book reservations, booking procedures, number of floors, and dress code."
+  - text: "I'm an AI chatbot with limited knowledge on specific topics such as \n 
+  \n 1.location\n 
+  \n 2.hours\n  
+  \n 3.book reservations\n 
+  \n 4.booking procedures\n 
+  \n 5.floors\n 
+  \n 6.dress code\n 
+  \n for Khun Ying Long building  "
 
 session_config:
   session_expiration_time: 60
