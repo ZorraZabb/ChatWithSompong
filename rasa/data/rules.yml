@@ -16,8 +16,3 @@ rules:
   steps:
   - intent: glad
   - action: utter_glad
-
-- rule: Say glad_th anytime the user glad_th
-  steps:
-  - intent: glad_th
-  - action: utter_glad_th

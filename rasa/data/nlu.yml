@@ -90,6 +90,22 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
+- intent: ask_what_can_do
+  examples: |
+    - What actions are available to you?
+    - What options do you have?
+    - What are your possibilities?
+    - What can you accomplish?
+    - What activities are within your reach?
+    - What are the things you can achieve?
+    - What is feasible for you to do?
+    - What is in your power to do?
+    - What tasks can you undertake?
+    - What are your capabilities?
+    - Options available?
+    - Possible actions?
+    - What can be done?
+
 - intent: ask_PSU
   examples: |
     - Do you know PSU?
@@ -114,122 +130,293 @@ nlu:
     - So cool
     - Great
     - You're so cool.
+    - You're the best
+    - You're amazing
+    - I'm indebted to you
+    - I'm so thankful for
+    - That's very thoughtful of you
 
-- intent: hello_th
+- intent: ask_ying_time
   examples: |
-    - สวัสดี
-    - หวัดดี
-    - สวีดัด
-    - โหลๆ
-    - ดีจ้า
-    - ดีงับ
+    - What time does the library open?
+    - What time does the library room open?
+    - What time does the library room close?
+    - What time does the library close?
+    - Opening and closing time
+    - Could you tell me the opening and closing time?
+    - May I know the opening and closing time of the library room?
+    - May I know the opening and closing time of the library?
+    - What time does the Khunying building open?
+    - Library business hours
+    - Opening and closing days and times
+    - Library business days
 
-- intent: glad_th
+- intent: ask_about_contact
   examples: |
-    - ขอบคุณมากๆ ครับ
-    - ขอบคุณครับ
-    - ขอบคูมครับ
-    - ขอบคูมค่ะ
-    - แต๊งกิ้วงับ
-    - ขอบคุณงับ
-    - แต๊งหลายๆ
-    - แต๊งหลายเด้อ
-    - ขอบพระคุณ
-    - ขอบพระคุณเพคะ
+    - Contact for inquiry
+    - Contact channels
+    - Can I have a contact channel, please?
+    - May I have a contact channel for inquiry?
+    - Can I have some additional contact channels?
+    - Is there any way to contact you?
+    - Where can I ask for more information?
+    - Additional contact channels
 
-- intent: ask_psu_th
+- intent : ask_ying_enter
   examples: |
-    - มอ.ย่อมาจากอะไร
-    - มอ.คืออะไร
-    - มหาลัยมอ.คือ
-    - มหาวิทยาลัยมอ.คือ
-    - มหาวิทยาลัยสงขลานครินทร์คือ
-    - แนะนำมหาวิทยาลัยมอ.
+    - Can I enter the library?
+    - How to enter the library?
+    - How do I access the library?
+    - How can I use the library?
+    - What do I need to do to enter the library?
+    - Can ordinary people use the library?
+    - How can students use the library?
+    - Can students use the library?
+    - Is the library free to use?
 
-- intent: ask_ying_time_th
+- intent : ask_costume
   examples: |
-    - หอสมุดเปิดกี่โมง
-    - ห้องสมุดเปิดกี่โมง
-    - ห้องสมุดปิดกี่โมง
-    - หอสมุดปิดกี่โมง
-    - เวลาเปิดปิด
-    - ขอทราบเวลาเปิดปิดหน่อยครับ
-    - ขอสอบถามเวลาเปิดปิดห้องสมุด
-    - สอบถามเวลาเปิดปิดหอสมุด
-    - ตึกคุณหญิงหลงเปิดกี่โมง
-    - วันเวลาเปิดทำการหอสมุด
-    - วันเวลาเปิดปิด
-    - วันทำการของหอสมุด
+    - Dress code in the library
+    - What to wear?
+    - Do I have to dress formally?
+    - Can I wear shorts?
+    - Can I wear crop tops?
+    - What outfit to wear to the library?
+    - What outfits are allowed in the library?
+    - What outfits are not allowed in the library?
+    - Library dress code rules
+    - May I ask about the dress code in the library?
+    - Inquire about dress code
+    - Inquire about outfits allowed in the library
 
-- intent: ask_about_contact_th
+- intent : ask_floor
   examples: |
-    - ติดต่อสอบถาม
-    - ช่องทางติดต่อ
-    - ขอช่องทางติดต่อหน่อยครับ
-    - ขอช่องทางสอบถาม
-    - ขอช่องทางติดต่อเพิ่มเติมหน่อย
-    - มีทางติดต่อมั้ย
-    - สอบถามเพิ่มเติมที่ไหน
-    - ช่องทางติดต่อเพิ่มเติม
+    - How many floors does the Khunying Long's Library have?
+    - How many floors does the library have?
+    - How many floors does the library have?
+    - Number of floors in the library
+    - How many floors does the Khunying Long's Library have in total?
 
-- intent : ask_ying_enter_th
+- intent : ask_each_floor
   examples: |
-    - เข้าหญิงหลงได้เลยมั้ย
-    - วิธีเข้าหอสมุด
-    - สอบถามวิธีการเข้าห้องสมุด
-    - การเข้าใช้หอสมุดทำอย่างไร
-    - ต้องทำอะไรบ้างถึงเข้าหอสมุดได้
-    - คนธรรมดาเข้าใช้งานได้มั้ย
-    - นักศึกษาเข้าใช้งานอย่างไร
-    - นักศึกษาเข้าใช้งานได้มั้ย
-    - เข้าใช้ฟรีมั้ย
+    - What does each floor have?
+    - What is the third floor like?
+    - What is the fourth floor like?
+    - What is the fifth floor like?
+    - What is the sixth floor like?
+    - What is the seventh floor like?
+    - What is on the third floor?
+    - What is on the women's only floor?
+    - What is each floor like?
+    - May I ask about the women's only floor?
+    - Could you give me information about each floor, please?
+    - What are floors 3-7 like?
+    - What is the fifth floor like?
+    - What is the fourth floor like?
 
-- intent : ask_costume_th
+- intent : ask_step_borrow
   examples: |
-    - การแต่งกายในหอสมุด
-    - แต่งกายแบบไหน
-    - ต้องแต่งตัวสุภาพมั้ย
-    - ใส่ขาสั้นได้ป่าว
-    - ใส่เอวลอยได้มั้ย
-    - ใส่ชุดอะไรเข้า
-    - ใส่ชุดอะไรเข้าได้บ้าง
-    - ห้ามใส่ชุดอะไรมั้ย
-    - กฎการแต่งตัวในหอสมุด
-    - ขอสอบถามการแต่งกายหน่อยครับ
-    - สอบถามการแต่งตัว
-    - สอบถามชุดที่ใส่เข้าหอสมุด
+    - Excuse me, can you show me how to borrow a book from the library?
+    - Could you walk me through the steps to borrow a book from the library?
+    - I've never borrowed a book from here before. Can you tell me how to do it
+    - Do I need a library card to borrow a book, and if so, how do I get one?
+    - What do I need to do to take a book out of the library?
+    - Is there anything I need to know before I borrow a book from the library?
+    - Can you tell me what the process is for borrowing a book? I'm new here.
+    - What do I need to borrow a book?
+    - Can you tell me how to borrow a book?
+    - How to borrow a book?
 
-- intent : ask_floor_th
+- intent : ask_reserve_room
   examples: |
-    - หญิงหลงมีกี่ชั้น
-    - หอสมุดมีกี่ชั้น
-    - ห้องสมุดมีกี่ชั้นครับ
-    - จำนวนชั้นของหอสมุด
-    - หญิงหลงมีทั้งหมดกี่ชั้นครับ
+    - How do I reserve a room in the library?
+    - Can you show me how to reserve a study room?
+    - Is it possible to book a room in advance?
+    - What is the process for reserving a group study room?
+    - Do I need a library card to reserve a room?
+    - Can I reserve a room online or do I have to do it in person?
+    - How far in advance can I reserve a room?
+    - Is there a time limit for reserving a room?
+    - Can I reserve a room for a whole day or just a few hours?
+    - Are there any restrictions on reserving certain types of rooms?
 
-- intent : ask_each_floor_th
+- intent: ask_time_reserve
   examples: |
-    - แต่ละชั้นมีอะไรบ้าง
-    - ชั้นสามเป็นอย่างไร
-    - ชั้นสี่เป็นอย่างไร
-    - ชั้นห้าเป็นอย่างไร
-    - ชั้นหกเป็นอย่างไร
-    - ชั้นเจ็ดเป็นอย่างไร
-    - ชั้นสามมีอะไร
-    - ชั้นในหญิงหลงมีอะไร
-    - แต่ละชั้นเป็นอย่างไร
-    - ขอสอบถามชั้นในหญิงหลง
-    - สอบถามแต่ละชั้นหน่อยครับ
-    - ชั้น 3-7 เป็นยังไง
-    - ชั้น 5 เป็นอย่างไร
-    - ชั้น 4 เป็นยังไง
+    - Excuse me, where can I check the time of my room reservation?
+    - Is there a way to view the schedule of my reserved room?
+    - Could you please tell me where I can find the details of my room booking?
+    - I was wondering if there's a place I can check the time slot of my reserved room?
+    - Do you know where I can find information about the time of my room reservation?
+    - Where can I check my room reservation time?
+    - How can I see the time of my room reservation?
+    - Is there a way to view my reserved time?
+    - Where do I go to check my library room booking time?
+    - Check my reservation time.
+
+- intent: ask_counter_borrow
+  examples: |
+    - Where can I find the book borrowing and returning counters?
+    - Excuse me, could you direct me to the book borrowing and returning counters?
+    - I was wondering where I can go to borrow and return books?
+    - Do you know where the book borrowing and returning counters are located?
+    - Can you point me in the direction of the counters for borrowing and returning books?
+    - Where is the area where I can borrow and return books located?
+    - Where are the book checkout and return desks?
+    - Where do I go to borrow and return books?
+    - I'm looking for the book borrowing and returning counters, can you point me in the right direction?
+    - Excuse me, could you please tell me where I can find the book borrowing and returning counters?
+    - Where are the book counters?
+    - Book borrowing and return counters location?
+    - Book counters, where?
+    - Where to borrow and return books?
+
+- intent: ask_where_room
+  examples: |
+    - Is there a meeting room or tutoring available?
+    - Are there any available meeting rooms or tutoring spaces?
+    - Can you tell me if there are any meeting rooms or tutoring rooms open?
+    - Do you offer meeting room or tutoring services?
+    - I was wondering if there are any meeting rooms or tutoring areas I can use?
+    - Are there meeting rooms or tutoring available?
+    - Meeting rooms or tutoring: yes or no?
+    - Do you have meeting rooms or tutoring facilities?
+    - Meeting rooms/tutoring: available or not?
+
+- intent: ask_where_thesis
+  examples: |
+    - Could you direct me to the section where I can find thesis and research books?
+    - I'm interested in finding books related to thesis and research. Where might they be located?
+    - Can you please tell me where I can locate the thesis and research book collection?
+    - Where is the section for books on thesis and research located?
+    - Could you tell me where I can find books on thesis and research?
+    - Do you know where I can locate thesis and research books?
+    - I'm looking for books related to thesis and research, can you point me in the right direction?
+    - Where can I find thesis and research books?
+    - Where are the academic research books located?
+    - Can you tell me where to locate theses and research books?
+    - Do you know where I can find books for academic research?
+    - Where are the books for thesis and research located?
+    - Location of thesis and research books?
+    - Thesis and research books, where are they?
+
+- intent: ask_full_long
+  examples: |
+    - Can you tell me the complete name of the library called Khunying Long Library?
+    - What is the official name of Khunying Long Library?
+    - Could you provide me with the full name of the library, Khunying Long Library?
+    - What is the full title of the Khunying Long Library?
+    - I am curious about the complete name of the Khunying Long Library. Can you tell me?
+    - Library name in full?
+    - What's the name of the library?
+    - Library's full name?
+    - Can you tell me the full name of the library?
+    - What is the complete name of the library?
+    - The library's official name?
+
+- intent: ask_study
+  examples: |
+    - Can you explain what a study room is?
+    - What is the purpose of the study rooms?
+    - Could you tell me about the study rooms in the library?
+    - I'm not familiar with the term "study room," could you provide some information on what it is?
+    - What are the rules for using the study rooms in the library?
+    - Define study room?
+    - What is a study room?
+    - Study room: what is it?
+    - Study room definition?
+    - Define study room.
+    - What is the function of the study rooms?
+    - Can you explain the purpose of the study rooms?
+    - What is the intended use of the study rooms?
+    - Could you clarify why the study rooms are available?
+    - What is the reason behind having study rooms in the library?
+    - What's the study room for?
+
+- intent: ask_stu_web_book
+  examples: |
+    - How can I make a reservation for a Study Room?
+    - Is it possible to book a Study Room online?
+    - Where can I reserve a Study Room?
+    - Is there an online platform for reserving Study Rooms?
+    - Can I book a Study Room through a website?
+    - Is there a way to make a reservation for a Study Room electronically?
+    - Is there a website for reserving Study Rooms?
+    - Website for Study Room reservations?
+    - Where can I book Study Rooms online?
+
+- intent: ask_many_room
+  examples: |
+    - What is the total number of Study Rooms available?
+    - How many Study Rooms are there in the library?
+    - Could you tell me the exact count of Study Rooms?
+    - Can you inform me about the quantity of Study Rooms in the facility?
+    - How many different zones are there in the Study Rooms section?
+    - What is the number of zones available for Study Rooms?
+    - How many Study Rooms are available?
+    - How many zones do the Study Rooms have?
+    - Number of Study Rooms?
+    - Study Room zones?
+    - How many Study Rooms are there?
+    - Number of Study Rooms?
+    - How many zones does Study Rooms have?
+    - Study Rooms zones count?
+
+- intent: ask_history_long
+  examples: |
+    - What is the history of Khunying Long Library?
+    - Can you tell me about the origin of Khunying Long Library?
+    - How did Khunying Long Library come into existence?
+    - What is the background of Khunying Long Library?
+    - Could you provide me with some information about the founding of Khunying Long Library?
+    - When was Khunying Long Library established and what is its history?
+    - What is the story behind the creation of Khunying Long Library?
+    - What's the history of Khunying Long Library?
+    - Khunying Long Library history?
+    - History of Khunying Long Library?
+    - Library's history?
+    - When was Khunying Long Library established?
+    - Year of establishment for Khunying Long Library?
+    - Origins of Khunying Long Library?
+    - When did Khunying Long Library begin operating?
+
+- intent: ask_donate_book
+  examples: |
+    - What are the criteria for donating books to the Khunying Long Library?
+    - What types of books are accepted as donations by Khunying Long Library?
+    - Are there any specific conditions or requirements for donating books to Khunying Long Library?
+    - How can I donate books to Khunying Long Library, and what is the process for doing so?
+    - Does Khunying Long Library accept donations of rare or valuable books, and if so, what is the process for donating such items?
+    - Are there any restrictions on the language or format of books that can be donated to Khunying Long Library?
+    - Criteria for book donations?
+    - What are the requirements for donating books?
+    - Guidelines for book donations?
+    - How to donate books to the library?
+    - Book donation criteria?
+
+- intent: ask_where_ying
+  examples: |
+    - What is the location of the Khunying Long Library at PSU?
+    - Where can I find the Khunying Long Library?
+    - What is the address of Khunying Long Library?
+    - In which part of the campus is Khunying Long Library located?
+    - Can you tell me where the PSU Khunying Long Library is situated?
+    - Khunying Long Library's location?
+    - Where is Khunying Long Library?
+    - Location of Khunying Long Library?
 
 - synonym : PSU
   examples: |
     - PSU
     - Prince of Songkhla University
-    - มอ.
-    - มหาวิทยาลัยสงขลานครินทร์
+
+- synonym : Library
+  examples: |
+    - library
+    - library room
+    - Khunying Long
+    - Khunying Long building
+    - learning resources center
+    - khunying long athakravisunthon learning resources center
 
 - synonym : recommend
   examples: |
@@ -237,12 +424,3 @@ nlu:
     - recommend
     - guide
     - advise
-
-- synonym : หอสมุด
-  examples: |
-    - ห้องสมุด
-    - ตึกคุณหญิงหลง
-    - ตึกคุณหญิง
-    - หอสมุดคุณหญิงหลง
-    - ห้องสมุดคุณหญิงหลง
-    - หญิงหลง

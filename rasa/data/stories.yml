@@ -34,24 +34,97 @@ stories:
   - intent: glad
   - action: utter_glad
 
-- story : ask PSU th
+- story: ask ying time
   steps:
-  - intent: hello_th
-  - action: utter_hello_th
-  - intent: ask_psu_th
-  - action: utter_ask_psu_th
+  - intent: ask_ying_time
+  - action: utter_ask_ying_time
 
-- story: ask ying th
+- story: ask ying enter
   steps:
-  - intent: ask_ying_time_th
-  - action: utter_ask_ying_time_th
-  - intent: ask_ying_enter_th
-  - action: utter_ask_ying_enter_th
-  - intent: ask_costume_th
-  - action: utter_ask_costume_th
-  - intent: ask_floor_th
-  - action: utter_ask_floor_th
-  - intent: ask_each_floor_th
-  - action: utter_ask_each_floor_th
-  - intent: ask_about_contact_th
-  - action: utter_ask_about_contact_th
+  - intent: ask_ying_enter
+  - action: utter_ask_ying_enter
+
+- story: ask costume
+  steps:
+  - intent: ask_costume
+  - action: utter_ask_costume
+
+- story: ask_floor
+  steps:
+  - intent: ask_floor
+  - action: utter_ask_floor
+
+- story: ask_each_floor
+  steps:
+  - intent: ask_each_floor
+  - action: utter_ask_each_floor
+
+- story: ask_about_contact
+  steps:
+  - intent: ask_about_contact
+  - action: utter_ask_about_contact
+
+- story: ask_step_borrow
+  steps:
+  - intent: ask_step_borrow
+  - action: utter_ask_step_borrow
+
+- story: ask_reserve_room
+  steps:
+  - intent: ask_reserve_room
+  - action: utter_ask_reserve_room
+
+- story: ask_time_reserve
+  steps:
+  - intent: ask_time_reserve
+  - action: utter_ask_time_reserve
+
+- story: ask_counter_borrow
+  steps:
+  - intent: ask_counter_borrow
+  - action: utter_ask_counter_borrow
+
+- story: ask_where_room
+  steps:
+  - intent: ask_where_room
+  - action: utter_ask_where_room
+
+- story: ask_where_thesis
+  steps:
+  - intent: ask_where_thesis
+  - action: utter_ask_where_thesis
+
+- story: ask_full_long
+  steps:
+  - intent: ask_full_long
+  - action: utter_ask_full_long
+
+- story: ask_study
+  steps:
+  - intent: ask_study
+  - action: utter_ask_study
+
+- story: ask_stu_web_book
+  steps:
+  - intent: ask_stu_web_book
+  - action: utter_ask_stu_web_book
+
+- story: ask_many_room
+  steps:
+  - intent: ask_many_room
+  - action: utter_ask_many_room
+
+- story: ask_history_long
+  steps:
+  - intent: ask_history_long
+  - action: utter_ask_history_long
+
+- story: ask_donate_book
+  steps:
+  - intent: ask_donate_book
+  - action: utter_ask_donate_book
+
+- story: ask_where_ying
+  steps:
+  - intent: ask_where_ying
+  - action: utter_ask_where_ying
