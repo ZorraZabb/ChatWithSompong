@@ -90,6 +90,20 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
+- intent: ask_what_doing
+  examples: |
+    - What are you up to?
+    - What are you working on?
+    - What task are you currently engaged in?
+    - What's occupying your time at the moment?
+    - What have you been up to lately?
+    - What's your current activity?
+    - What's on your agenda right now?
+    - What are you occupied with presently?
+    - What's taking up your time and attention currently?
+    - What's keeping you busy?
+    - What are you doing?
+
 - intent: ask_what_can_do
   examples: |
     - What actions are available to you?
@@ -105,6 +119,8 @@ nlu:
     - Options available?
     - Possible actions?
     - What can be done?
+    - What you can do?
+    - What can you do?
 
 - intent: ask_PSU
   examples: |
