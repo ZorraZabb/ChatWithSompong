@@ -111,19 +111,23 @@ td {
 .saying_block .saying_content1 .text_box h1  {
   font-weight: normal;
   font-size: 90px;
-  line-height: 100px;
+  line-height: 80px;
   font-family: "Bitter", serif;
   font-style: italic;
-  letter-spacing: 1px;
-  font-weight: bolder; 
+  letter-spacing: 1px;  
 }
 
-
+.saying_block .saying_content .text_box h4 {
+  font-size: 15px;
+  letter-spacing: 4px;
+  font-weight: normal;  
+  line-height: 40px;
+}
 .saying_block .saying_content .text_box h3 {
   font-size: 15px;
   letter-spacing: 4px;
   font-weight: normal;
-  padding: 15px 0 15px 0;
+  padding: 10px 0 0 0;
 }
 body,
 div,
@@ -217,24 +221,31 @@ section#tabbar h4,p {
   justify-content: center;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   .saying_content {
     flex-direction: column;
   }
   .saying_block .saying_content .text_box h1, h2 {    
-    font-size: 70px;
+    font-size: 60px;
   }
   .saying_block .saying_content .text_box h3 {
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 0px;    
     padding: 10px 0 0px 0;
+    line-height: 40px;
+}
+.saying_block .saying_content .text_box h4 {
+  font-size: 20px;
+  letter-spacing: 4px;
+  font-weight: normal;  
+  line-height: 40px;
 }
 .saying_block .saying_content .text_box p {
   font-size: 20px;  
 }
-.slideshow {  
+.slideshow { 
+  margin-top: 2%;
   width: 90%;
   height: 500px;
 }
-
 }
