@@ -31,6 +31,12 @@ intents:
   - ask_donate_book
   - ask_where_ying
   - ask_what_can_do
+  - ask_what_doing
+  - curse_word
+
+entities:
+ - curse
+
 
 responses:
   utter_greet:
@@ -38,6 +44,9 @@ responses:
 
   utter_cheer_up:
   - text: "May the force be with you!! (ノ^∇^)"
+
+  utter_curse_word:
+  - text: "Please refrain from using any profanity or offensive language."
 
   utter_happy:
   - text: "Great, carry on! ٩(◕‿◕｡)۶"
@@ -67,18 +76,18 @@ responses:
 
   utter_ask_ying_time:
   - text: "The library opening hours depend on the academic semester.\n 
-  \n1. During regular semester, it opens from 8:30am-10:30pm.\n 
-  \n2. During summer semester, it opens from 8:00am-7:30pm.\n 
-  \n3. During regular semester, it closes at 4:30pm.\n"
+          \n1. During regular semester, it opens from 8:30am-10:30pm.\n 
+          \n2. During summer semester, it opens from 8:00am-7:30pm.\n 
+          \n3. During regular semester, it closes at 4:30pm.\n"
 
   utter_ask_about_contact:
   - text: "For more information, please contact clib.psu@gmail.com or visit http://www.clib.psu.ac.th."
 
   utter_ask_ying_enter:
   - text: "A library card is required for access, and there are two types:\n 
-  \n1. Internal users\n  
-  \n2. External users (purchased from vending machines).\n
-  \nIn the case of students, they can use the library for free, but they must have a student ID card."
+          \n1. Internal users\n  
+          \n2. External users (purchased from vending machines).\n
+          \nIn the case of students, they can use the library for free, but they must have a student ID card."
 
   utter_ask_costume:
   - text: "As it is a government facility, Sompong requests that users dress appropriately. (´｡• ᵕ •｡`) ♡"
@@ -121,10 +130,10 @@ responses:
 
   utter_ask_many_room:
   - text: "The Khunying Long Learning Resources Center provides 37 Study Rooms that are categorized into three types.\n 
-  \nType A1 to A18 contains 18 rooms that can accommodate 1-2 persons\n
-  \nType B1 to B15 contains 15 rooms for 2-8 persons\n 
-  \nType C1 to C4 provides 4 rooms that can accommodate 8-16 persons\n 
-  \nTo view the location of Study Rooms, please refer to the map on our website: https://clib.psu.ac.th/studyroom/studyroom-plan."
+          \nType A1 to A18 contains 18 rooms that can accommodate 1-2 persons\n
+          \nType B1 to B15 contains 15 rooms for 2-8 persons\n 
+          \nType C1 to C4 provides 4 rooms that can accommodate 8-16 persons\n 
+          \nTo view the location of Study Rooms, please refer to the map on our website: https://clib.psu.ac.th/studyroom/studyroom-plan."
 
   utter_ask_history_long:
   - text: "The Khunying Long Library was established in 1978 as a merger of the Faculty of Science Library and the Library of the Faculty of Engineering. It was named after Lady Long Atthkrawee Soonthorn, a benefactor who donated land to establish Prince of Songkla University's Nakarin Hat Yai Campus. The library was initially under the Educational Service Division office of the rector and was later elevated to the status of Khunying Long Library in 1989, and upgraded to the Office of Learning Resources in 2007. The current building, the Learning Resources Center, was completed in 2012."
@@ -137,13 +146,20 @@ responses:
 
   utter_ask_what_can_do:
   - text: "I'm an AI chatbot with limited knowledge on specific topics such as \n 
-  \n 1.location\n 
-  \n 2.hours\n  
-  \n 3.book reservations\n 
-  \n 4.booking procedures\n 
-  \n 5.floors\n 
-  \n 6.dress code\n 
-  \n for Khun Ying Long building  "
+          \n 1.location\n 
+          \n 2.hours\n  
+          \n 3.book reservations\n 
+          \n 4.booking procedures\n 
+          \n 5.floors\n 
+          \n 6.dress code\n 
+          \n for Khun Ying Long building  "
+
+  utter_ask_what_doing:
+  - text: "I'm waiting for your question乁༼☯‿☯✿༽ㄏ"
+  - text: "Wait for a great question ヽ༼◥▶ل͜◀◤༽ﾉ"
+
+-actions:
+ - action : action_filter_curse_words
 
 session_config:
   session_expiration_time: 60

@@ -12,7 +12,7 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
-- rule: Say glad anytime the user glad
+- rule: Check for regex
   steps:
-  - intent: glad
-  - action: utter_glad
+  - intent: curse_word
+  - action: utter_curse_word

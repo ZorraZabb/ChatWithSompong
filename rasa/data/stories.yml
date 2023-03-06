@@ -133,3 +133,8 @@ stories:
   steps:
   - intent: ask_what_can_do
   - action: utter_ask_what_can_do
+
+- story: ask_what_doing
+  steps:
+  - intent: ask_what_doing
+  - action: utter_ask_what_doing

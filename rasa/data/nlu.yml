@@ -30,6 +30,32 @@ nlu:
     - bye bye
     - see you later
 
+- regex: curse
+  examples: |
+    - "(?i)\b(fuck|shit|bitch|asshole|cocksucker|bullshit|dickhead|slut|pussy|holy shit)\b"
+
+- intent: curse_word
+  examples: |
+    - [fuck](curse)
+    - [shit](curse)
+    - [bitch](curse)
+    - [kuay](curse)
+    - [yed mae](curse)
+    - [yed hee](curse)
+    - [Fuck][Fuck](curse)
+    - Oh [shit](curse)
+    - [Fuck] that [bitch](curse)
+    - [asshole](curse)
+    - [bullshit](curse)
+    - [cocksucker](curse)
+    - [dickhead](curse)
+    - [slut](curse)
+    - [pussy](curse)
+    - [holy shit](curse)
+    - Hello [bitch](curse)
+    - Hi [bitch](curse)
+    - Hello [shit](curse)
+
 - intent: affirm
   examples: |
     - yes
