@@ -93,10 +93,14 @@ responses:
   - text: "As it is a government facility, Sompong requests that users dress appropriately. (´｡• ᵕ •｡`) ♡"
 
   utter_ask_floor:
-  - text: "Khunying Long Library has a total of 7 floors, but the library starts counting from the third floor. ★~(◠‿◕✿)"
+  - text: "Khunying Long Library has a total of 7 floors, but the library starts counting from the 3 floor. ★~(◠‿◕✿)"
 
   utter_ask_each_floor:
-  - text: "The third floor is the entrance/exit, with borrowing and returning counters. The fourth floor is a reference room with document copying services. The fifth floor has books in English and Thai. The sixth floor has books and reading areas similar to other floors. The seventh floor has a large meeting room for studying or meetings, and there is also a movie screening room."
+  - text: "The 3 floor is the entrance/exit, with borrowing and returning counters.\n 
+          \n The 4 floor is a reference room with document copying services.\n  
+          \n The 5 floor has books in English and Thai.\n  
+          \n The 6 floor has books and reading areas similar to other floors.\n  
+          \n The 7 floor has a large meeting room for studying or meetings, and there is also a movie screening room."
 
   utter_ask_step_borrow:
   - text: " \n1.Borrower must use their own membership card, and can borrow up to 4 times, unless a resource is reserved.\n
@@ -111,13 +115,13 @@ responses:
   - text: "You can access the link https://clib.psu.ac.th/studyroom/ to view the reserved time."
 
   utter_ask_counter_borrow:
-  - text: "The book borrowing and returning counter is located on the third floor."  
+  - text: "The book borrowing and returning counter is located on the 3 floor."  
 
   utter_ask_where_room:
-  - text: "Yes, the meeting room or tutoring room is located on the seventh floor of the Khunying Long Library."
+  - text: "Yes, the meeting room or tutoring room is located on the 7 floor of the Khunying Long Library."
 
   utter_ask_where_thesis:
-  - text: "The collection of thesis and research books is located on the seventh floor of the Khunying Long Library."
+  - text: "The collection of thesis and research books is located on the 7 floor of the Khunying Long Library."
 
   utter_ask_full_long:
   - text: "The complete name of the Khunying Long Library is the Khunying Long Athakravisunthorn Learning Resources Center."
@@ -146,6 +150,7 @@ responses:
 
   utter_ask_what_can_do:
   - text: "I'm an AI chatbot with limited knowledge on specific topics such as \n 
+<<<<<<< HEAD
           \n 1.location\n 
           \n 2.hours\n  
           \n 3.book reservations\n 
@@ -160,6 +165,15 @@ responses:
 
 -actions:
  - action : action_filter_curse_words
+=======
+  \n1. location\n 
+  \n2. hours\n  
+  \n3. book reservations\n 
+  \n4. booking procedures\n 
+  \n5. floors\n 
+  \n6. dress code\n 
+  \n for Khun Ying Long building ( ﾉ･o･ )ﾉ "
+>>>>>>> a7fb6aeaae31845362339c5b236660cd61b57eab
 
 session_config:
   session_expiration_time: 60

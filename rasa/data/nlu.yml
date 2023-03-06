@@ -192,6 +192,8 @@ nlu:
     - Library business hours
     - Opening and closing days and times
     - Library business days
+    - hours
+    - clock
 
 - intent: ask_about_contact
   examples: |
@@ -311,6 +313,7 @@ nlu:
     - Book borrowing and return counters location?
     - Book counters, where?
     - Where to borrow and return books?
+    - where borrow book?
 
 - intent: ask_where_room
   examples: |
