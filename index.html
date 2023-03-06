@@ -2,33 +2,66 @@
 <html>
   <head>
     <title>My Rasa Chatbot</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">    
   </head>
   <body>
+    <style>
+      .rw-conversation-container .rw-header{background-color:hsl(197, 63%, 66%);}
+      .rw-conversation-container .rw-messages-container .rw-message .rw-client{background-color: hsl(197, 63%, 66%);}
+      .rw-launcher{background-color: hsl(197, 63%, 66%);}
+      .rw-conversation-container .rw-reply{background-color: hsl(197, 63%, 66%); border: 1px solid hsl(197, 63%, 66%);}
+      .rw-conversation-container .rw-send .rw-send-icon-ready {fill: hsl(197, 63%, 66%) ; transition: fill .35s;}
+  </style>
     <div class="wrapper">
       <section class="saying_block Musk">
-        <div class="saying_content">
+        <div class="saying_content1">
           <div class="text_box">
+            <h1>Khunyinglong Library</h1>
             <h2>Sompong</h2>
             <p> - Yep, I'm Chatbot.</p>
           </div>
         </div>
       </section>
       <section class="saying_block buffett">
-        <div class="saying_content">
+        <div class="saying_content">          
+          <div class="slideshow">
+            <img class="image" src="https://www.psu.ac.th/img/life-moor/1/hy.jpg">
+            <img class="image" src="https://f.ptcdn.info/002/009/000/1377703067-DSC0199JPG-o.jpg">
+            <img class="image" src="https://clib.psu.ac.th/images/ratana/n130124_23-1.jpg">            
+          </div>
+          <div class="tag"></div>
           <div class="text_box">
             <h2>“ How to use ”</h2>
             <h3>1.Ask Sompong in English.</h3>
             <h3>2.Sompong is knowledgeable in matters<br>related to Khunying Long</h3>
-            <h3>3.Don't bully Sompong.<p>Cause Sompong gonna feel bad.<p></h3>
-            <p> - Sorrasub who train Sompong</p>
-          </div>
+            <h3>3.Don't bully Sompong.Cause Sompong gonna feel bad.</h3>
+            <p> - Sorrasub who train Sompong</p>            
+          </div>  
+          
+          <script>
+            var slides = document.querySelectorAll('.slideshow img');
+            var currentSlide = 0;
+            var slideInterval = setInterval(nextSlide, 5000);
+        
+            function nextSlide() {
+              slides[currentSlide].className = '';
+              currentSlide = (currentSlide + 1) % slides.length;
+              slides[currentSlide].className = 'active';
+                          }
+          </script> 
         </div>
       </section>
-      <div id="include_footer">
-      </div>
-    </div>
 
+      <section id="tabbar">
+        <h4>	Khunying Long Athakravisunthorn Learning Resources Center, Prince of Songkla University
+          Khohong Hatyai Songkhla 90110
+        </h4>        
+        <p>
+          Tel: 0-7428-2352  Gmail: clib.psu@gmail.com
+        </p>
+
+      </section> 
+         
     <script>!(function () {
       let e = document.createElement("script"),
         t = document.head || document.getElementsByTagName("head")[0];
@@ -41,7 +74,7 @@
             {
               title: "Sompong",
               subtitle: "Chatbot",
-              profileAvatar: "./img/NangG.jpg",
+              profileAvatar: "https://i.pinimg.com/564x/a8/f1/5e/a8f15eee6a420f42ceae8e2111ab865b.jpg",
               initPayload: "/greet",
               customData: { language: "en" },
               socketUrl: "http://localhost:5005",
@@ -52,6 +85,7 @@
                     width: 300,
                     height: 200
                   }
+              
                 }
               }
               // add other props here

@@ -7,7 +7,7 @@ div {
   display: block;
 }
 .saying_block.Musk {
-  background-image: url(./img/pexel_AI.jpg);
+  background-image: url(https://www.psu.ac.th/img/introduce/fac/library/tr.jpg);
 }
 .saying_block {
   width: 100%;
@@ -43,8 +43,8 @@ body {
   font-family: "Roboto", "Noto Sans TC", sans-serif;
   color: #172730;
 }
-.saying_block.Musk .saying_content {
-  background-color: rgba(44, 69, 136, 0.7);
+.saying_block.Musk .saying_content1 {
+  background-color: #2c458838;
 }
 .saying_block .saying_content {
   width: 100%;
@@ -55,6 +55,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 body,
 div,
 dl,
@@ -85,12 +86,21 @@ td {
   width: 100%;
   height: 100%;
   text-align: center;
-  color: #fff;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.saying_block .saying_content1 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fcfcfc;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.saying_block .saying_content .text_box h2 {
+.saying_block .saying_content .text_box h1 ,h2 {
   font-weight: normal;
   font-size: 42px;
   line-height: 50px;
@@ -98,15 +108,17 @@ td {
   font-style: italic;
   letter-spacing: 1px;
 }
-h2 {
-  display: block;
-  font-size: 1.5em;
-  -webkit-margin-before: 0.83em;
-  -webkit-margin-after: 0.83em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  font-weight: bold;
+.saying_block .saying_content1 .text_box h1  {
+  font-weight: normal;
+  font-size: 90px;
+  line-height: 100px;
+  font-family: "Bitter", serif;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-weight: bolder; 
 }
+
+
 .saying_block .saying_content .text_box h3 {
   font-size: 15px;
   letter-spacing: 4px;
@@ -136,7 +148,7 @@ p,
 blockquote,
 th,
 td {
-  margin: 0;
+  margin-bottom: 5%;
   padding: 0;
 }
 h3 {
@@ -151,7 +163,7 @@ h3 {
 .saying_block .saying_content .text_box p {
   font-size: 12px;
   letter-spacing: 2px;
-  padding: 20px 0 20px 0;
+  padding: 0px 0 0px 0;
   opacity: 0.7;
 }
 p {
@@ -162,8 +174,67 @@ p {
   -webkit-margin-end: 0px;
 }
 .saying_block.buffett {
-  background-image: url(./img/Entrepreneur.jpg);
+  background-color: #eff7ff;
 }
-.saying_block.buffett .saying_content {
-  background-color: rgba(29, 69, 106, 0.7);
+.slideshow {
+  position: relative;
+  width: 45%;
+  height: 500px;
+  overflow: hidden;
+}
+.slideshow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+ }
+.slideshow img:first-child {
+  opacity: 1;
+  z-index: 1;
+}
+.slideshow img.active {
+  opacity: 1;
+  z-index: 2;
+}
+.tag{
+  margin-right: 5%;
+}
+
+section#tabbar {
+  background-color: hsl(197, 54%, 55%);
+  padding: 15px 0 15px 0;
+  margin: 0 0 0 0;
+}
+
+section#tabbar h4,p {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+  .saying_content {
+    flex-direction: column;
+  }
+  .saying_block .saying_content .text_box h1, h2 {    
+    font-size: 70px;
+  }
+  .saying_block .saying_content .text_box h3 {
+    font-size: 30px;
+    letter-spacing: 0px;    
+    padding: 10px 0 0px 0;
+}
+.saying_block .saying_content .text_box p {
+  font-size: 20px;  
+}
+.slideshow {  
+  width: 90%;
+  height: 500px;
+}
+
 }
