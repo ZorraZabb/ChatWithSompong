@@ -150,7 +150,6 @@ responses:
 
   utter_ask_what_can_do:
   - text: "I'm an AI chatbot with limited knowledge on specific topics such as \n 
-<<<<<<< HEAD
           \n 1.location\n 
           \n 2.hours\n  
           \n 3.book reservations\n 
@@ -165,15 +164,6 @@ responses:
 
 -actions:
  - action : action_filter_curse_words
-=======
-  \n1. location\n 
-  \n2. hours\n  
-  \n3. book reservations\n 
-  \n4. booking procedures\n 
-  \n5. floors\n 
-  \n6. dress code\n 
-  \n for Khun Ying Long building ( ﾉ･o･ )ﾉ "
->>>>>>> a7fb6aeaae31845362339c5b236660cd61b57eab
 
 session_config:
   session_expiration_time: 60
