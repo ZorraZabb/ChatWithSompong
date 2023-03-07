@@ -109,10 +109,10 @@ responses:
             \n4.Borrower is responsible for the cost of damaged, lost, or missing resources according to library regulations.\n"
 
   utter_ask_reserve_room:
-  - text: "I believe the following link may provide the information you are seeking: https://download.clib.psu.ac.th/datawebclib/studyroom-vdo/vdo01.html."
+  - text: "I believe the following link may provide the information you are seeking: \nhttps://download.clib.psu.ac.th/datawebclib/studyroom-vdo/vdo01.html."
 
   utter_ask_time_reserve:
-  - text: "You can access the link https://clib.psu.ac.th/studyroom/ to view the reserved time."
+  - text: "You can access the link \n https://clib.psu.ac.th/studyroom/\n to view the reserved time."
 
   utter_ask_counter_borrow:
   - text: "The book borrowing and returning counter is located on the 3 floor."  
@@ -130,14 +130,15 @@ responses:
   - text: "The Study Rooms are available for meetings or studying with amenities such as a TV and whiteboard. Room sizes range from 2 to 6-8 people and can be reserved via our website or through public relations. Please visit this link to book: https://clib.psu.ac.th/studyroom/."
 
   utter_ask_stu_web_book:
-  - text: "Clib PSU provides an online Study Room reservation service through the following website: https://clib.psu.ac.th/studyroom/service_reserve"
+  - text: "Clib PSU provides an online Study Room reservation service through the following website: \nhttps://clib.psu.ac.th/studyroom/service_reserve"
 
   utter_ask_many_room:
   - text: "The Khunying Long Learning Resources Center provides 37 Study Rooms that are categorized into three types.\n 
           \nType A1 to A18 contains 18 rooms that can accommodate 1-2 persons\n
           \nType B1 to B15 contains 15 rooms for 2-8 persons\n 
           \nType C1 to C4 provides 4 rooms that can accommodate 8-16 persons\n 
-          \nTo view the location of Study Rooms, please refer to the map on our website: https://clib.psu.ac.th/studyroom/studyroom-plan."
+          \nTo view the location of Study Rooms, please refer to the map on our website:\n
+          \n https://clib.psu.ac.th/studyroom/studyroom-plan."
 
   utter_ask_history_long:
   - text: "The Khunying Long Library was established in 1978 as a merger of the Faculty of Science Library and the Library of the Faculty of Engineering. It was named after Lady Long Atthkrawee Soonthorn, a benefactor who donated land to establish Prince of Songkla University's Nakarin Hat Yai Campus. The library was initially under the Educational Service Division office of the rector and was later elevated to the status of Khunying Long Library in 1989, and upgraded to the Office of Learning Resources in 2007. The current building, the Learning Resources Center, was completed in 2012."
@@ -146,7 +147,7 @@ responses:
   - text: "Criteria for donating books include: original copies, accuracy and up-to-date content, cleanliness without any markings or tear marks, and availability in the library. Award-winning or popular books are preferred. More details can be found at: https://clib.psu.ac.th/images/ratana/Donate-Books.jpg"
 
   utter_ask_where_ying:
-  - text: "Address: Khunying Long Learning Resources Office Atthkrawee Soonthorn Prince of Songkhla University, Kho Hong Subdistrict, Hat Yai District Songkhla, 90112 Location: https://goo.gl/maps/T7oGttZL2MKsE6ww8 (Located in Prince of Songkla University)"
+  - text: "Address Khunying Long Learning Resources Office Atthkrawee Soonthorn Prince of Songkhla University, Kho Hong Subdistrict, Hat Yai District Songkhla, 90112 Location  \n https://goo.gl/maps/T7oGttZL2MKsE6ww8 (Located in Prince of Songkla University)"
 
   utter_ask_what_can_do:
   - text: "I'm an AI chatbot with limited knowledge on specific topics such as \n 
