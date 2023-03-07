@@ -147,7 +147,9 @@ responses:
   - text: "Criteria for donating books include: original copies, accuracy and up-to-date content, cleanliness without any markings or tear marks, and availability in the library. Award-winning or popular books are preferred. More details can be found at: https://clib.psu.ac.th/images/ratana/Donate-Books.jpg"
 
   utter_ask_where_ying:
-  - text: "Address Khunying Long Learning Resources Office Atthkrawee Soonthorn Prince of Songkhla University, Kho Hong Subdistrict, Hat Yai District Songkhla, 90112 Location  \n https://goo.gl/maps/T7oGttZL2MKsE6ww8 (Located in Prince of Songkla University)"
+  - text: "Address Khunying Long Learning Resources Office Atthkrawee Soonthorn Prince of Songkhla University, Kho Hong Subdistrict, Hat Yai District Songkhla, 90112 Location\n 
+  \n https://goo.gl/maps/T7oGttZL2MKsE6ww8 \n
+  \n(Located in Prince of Songkla University)"
 
   utter_ask_what_can_do:
   - text: "I'm an AI chatbot with limited knowledge on specific topics such as \n 
