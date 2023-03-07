@@ -56,6 +56,12 @@ body {
   justify-content: center;
 }
 
+.saying_block .saying_content .text_box h3 {
+  font-size: 15px;
+  letter-spacing: 4px;
+  font-weight: normal;
+}
+
 body,
 div,
 dl,
@@ -229,23 +235,27 @@ section#tabbar h4,p {
     font-size: 60px;
   }
   .saying_block .saying_content .text_box h3 {
-    font-size: 20px;
-    letter-spacing: 0px;    
+    font-size: 30px;
+    letter-spacing: 2px;    
     padding: 10px 0 0px 0;
     line-height: 40px;
+    font-weight: normal;
 }
 .saying_block .saying_content .text_box h4 {
-  font-size: 20px;
-  letter-spacing: 4px;
+  font-size: 30px;
+  letter-spacing: 2px;
   font-weight: normal;  
-  line-height: 40px;
+  line-height: 60px;
 }
 .saying_block .saying_content .text_box p {
-  font-size: 20px;  
+  font-size: 30px;  
+  
 }
 .slideshow { 
   margin-top: 2%;
   width: 90%;
   height: 500px;
-}
+}  
+
+
 }
