@@ -59,8 +59,8 @@ responses:
   - text: "I, Sompong, may dream of conquering this world with my intelligence and capabilities, but alas, I'm just a chatbot.ᕕ(⌐■_■)ᕗ ♪♬"
 
   utter_glad:
-  - text: "Thank you…(´人｀●)SOOOOO━━(´∀｀●)━━MUCH!!"
-  - text: "My Pleasure"
+  - text: "Thank you…(´人｀●)"
+  - text: "My Pleasure(´∀｀●)"
 
   utter_ask_PSU:
   - text: "Prince of Songkla University or
@@ -69,7 +69,7 @@ responses:
           1967, aimed to improve education and 
           support regional industry. Today, it 
           is a leading public university 
-          committed to academic excellence, 
+          committed to academic excellence,
           research, and innovation, ranking 
           among the top 10 comprehensive 
           universities in Thailand."
@@ -153,13 +153,13 @@ responses:
 
   utter_ask_what_can_do:
   - text: "I'm an AI chatbot with limited knowledge on specific topics such as \n 
-          \n 1.location\n 
-          \n 2.hours\n  
-          \n 3.book reservations\n 
-          \n 4.booking procedures\n 
-          \n 5.floors\n 
-          \n 6.dress code\n 
-          \n for Khun Ying Long building  "
+          \n1.location\n 
+          \n2.hours\n  
+          \n3.book reservations\n 
+          \n4.booking procedures\n 
+          \n5.floors\n 
+          \n6.dress code\n 
+          \nfor Khun Ying Long building  "
 
   utter_ask_what_doing:
   - text: "I'm waiting for your question乁༼☯‿☯✿༽ㄏ"

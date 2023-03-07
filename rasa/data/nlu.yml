@@ -147,6 +147,7 @@ nlu:
     - What can be done?
     - What you can do?
     - What can you do?
+    - do
 
 - intent: ask_PSU
   examples: |
@@ -217,6 +218,8 @@ nlu:
     - How can students use the library?
     - Can students use the library?
     - Is the library free to use?
+    - Card
+    - library card
 
 - intent : ask_costume
   examples: |
@@ -270,6 +273,7 @@ nlu:
     - What do I need to borrow a book?
     - Can you tell me how to borrow a book?
     - How to borrow a book?
+    - booking procedures
 
 - intent : ask_reserve_room
   examples: |
@@ -389,6 +393,7 @@ nlu:
     - Is there a website for reserving Study Rooms?
     - Website for Study Room reservations?
     - Where can I book Study Rooms online?
+    - reservations
 
 - intent: ask_many_room
   examples: |
@@ -406,6 +411,7 @@ nlu:
     - Number of Study Rooms?
     - How many zones does Study Rooms have?
     - Study Rooms zones count?
+    - type room
 
 - intent: ask_history_long
   examples: |
@@ -449,6 +455,8 @@ nlu:
     - Khunying Long Library's location?
     - Where is Khunying Long Library?
     - Location of Khunying Long Library?
+    - where YingLong?
+    - where Khunying Long
 
 - synonym : PSU
   examples: |

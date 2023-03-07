@@ -213,18 +213,27 @@ p {
   margin-right: 5%;
 }
 
-section#tabbar {
+.tabbar1 {
   background-color: hsl(197, 54%, 55%);
   padding: 15px 0 15px 0;
   margin: 0 0 0 0;
 }
-
-section#tabbar h4,p {
+.tabbar1 h4 {
   list-style: none;
   margin: 0;
   padding: 10px;
   display: flex;
   justify-content: center;
+  color: #ffffff;
+  
+}
+.tabbar1 p {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 1000px) {
@@ -255,7 +264,6 @@ section#tabbar h4,p {
   margin-top: 2%;
   width: 90%;
   height: 500px;
-}  
-
+} 
 
 }
